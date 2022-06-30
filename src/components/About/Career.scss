@@ -1,0 +1,176 @@
+.CareerPage {
+  .wrapperCareer {
+    // @media all and (max-width: 992px) {
+    //   height: 100vh;
+    //   .ndwrapper {
+    //     height: 100vh !important;
+    //   }
+    // }
+    background: url("../../assets/About/career.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    img {
+      width: 100px;
+    }
+    .ndwrapper {
+      background: rgba(0, 0, 0, 0.703);
+      width: 100%;
+      height: 80vh;
+      .head_content {
+        @media all and (max-width: 992px) {
+          display: block;
+          padding-top: 150px !important;
+          p {
+            font-size: 15px;
+            margin-top: 40px;
+          }
+        }
+        padding-top: 300px;
+        display: grid;
+        margin-bottom: 250px;
+        grid-template-columns: 50% 50%;
+        h1 {
+          color: #fff;
+          font-weight: 800;
+        }
+        p {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 300;
+        }
+      }
+      .small_about {
+        padding: 50px 0;
+        opacity: 0.7;
+      }
+      .advanteges {
+        @media all and (max-width: 992px) {
+          display: block;
+          .mycol {
+            margin: 40px 0 !important;
+          }
+        }
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        .mycol {
+          margin: 25px 0;
+          text-align: center;
+          img {
+            width: 80px;
+            margin: 10px 0;
+          }
+          h3 {
+            font-weight: 800;
+            color: #293350;
+            font-size: 23px;
+          }
+        }
+      }
+      .bigwrap {
+        .offers {
+          @media all and (max-width: 992px) {
+            display: block;
+            ul {
+              li {
+                font-size: 18px !important;
+              }
+            }
+          }
+          display: grid;
+          grid-template-columns: 50% 50%;
+          ul {
+            padding-left: 0;
+            li {
+              list-style: none;
+              display: flex;
+              font-size: 25px;
+              align-items: center;
+              padding: 20px 0;
+              svg {
+                font-size: 40px;
+                color: #cd9827;
+                margin-right: 20px;
+              }
+            }
+          }
+        }
+      }
+      .for_students {
+        background: url("../../assets/About/students.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-attachment: fixed;
+        @media all and (max-width: 992px) {
+          .studentswrap {
+            h1 {
+              max-width: 100% !important;
+              font-size: 19px !important;
+              padding: 30px !important;
+            }
+          }
+        }
+        .studentswrap {
+          height: 70vh;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.721);
+          h1 {
+            font-weight: 800;
+            font-size: 50px;
+            color: #fff;
+            max-width: 70%;
+            padding: 50px;
+          }
+          .useful {
+            @media all and(max-width:992px) {
+              display: block;
+              .mycol {
+                padding-top: 50px !important;
+                padding-left: 25px !important;
+              }
+            }
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            .mycol {
+              padding-top: 120px;
+              display: flex;
+              align-items: center;
+              justify-content: left;
+              padding-left: 50px;
+              svg {
+                font-size: 20px;
+                margin-right: 10px;
+                color: #fff;
+              }
+              color: #fff;
+            }
+          }
+        }
+      }
+      .offer_link {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        .for_link {
+          text-align: center;
+          h2 {
+            font-weight: 800;
+            color: #293350;
+          }
+          a {
+            text-decoration: none;
+            color: #fff;
+            button {
+              border: none;
+              border-radius: 5px;
+              background-color: #365ca8;
+              padding: 15px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

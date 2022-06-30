@@ -1,0 +1,211 @@
+.mob_nav {
+  @media all and (max-width: 992px) {
+    display: block;
+    top: 0;
+  }
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  background-color: rgb(229, 255, 255);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  border-bottom: 1px solid rgb(209, 204, 204);
+  .wrapper {
+    grid-template-columns: 25% 50% 25%;
+    padding: 10px 10px;
+    display: grid;
+    align-items: center;
+    .centre {
+      text-align: center;
+      img {
+        width: 70px;
+      }
+    }
+    .left {
+      .select {
+        margin-top: 5px;
+        color: #fff;
+        position: relative;
+        display: flex;
+        width: 5em;
+        height: 2.2em;
+        border-radius: 0.25em;
+        overflow: hidden;
+        select {
+          appearance: none;
+          outline: 0;
+          border: 0;
+          box-shadow: none;
+          flex: 1;
+          padding: 0 1em;
+          color: #fff;
+          background-color: var(--darkgray);
+          background-image: none;
+          cursor: pointer;
+        }
+        /* Remove IE arrow */
+        select::-ms-expand {
+          display: none;
+        }
+      }
+      .select::after {
+        content: "\25BC";
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0.4em;
+        background-color: #023e7a;
+        transition: 0.25s all ease;
+        pointer-events: none;
+      }
+      .select:hover::after {
+        color: #f39c12;
+      }
+
+      .dropdown-toggle {
+        width: 50px;
+      }
+      img {
+        width: 30px;
+      }
+    }
+    .mob_btn {
+      display: block;
+      background-color: #0d6efd;
+      border: none;
+      width: 30px;
+      height: 30px;
+      margin-left: auto;
+      border-radius: 5px;
+      span {
+        text-align: center;
+        display: block;
+        margin: 4px auto;
+        border-radius: 5px;
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+        color: #fff;
+        z-index: 10;
+      }
+    }
+  }
+  .dropdown-menu {
+    padding: 0;
+    min-width: 3rem;
+  }
+  .dropdown-item {
+    padding: 5px 9px;
+  }
+}
+.offcanvas {
+  background-color: rgba(255, 255, 255, 0.801);
+}
+.offcanvas-header {
+  background-color: rgba(255, 255, 255, 0.801) !important;
+
+  margin-top: 100px;
+  .socials {
+    ul {
+      display: flex;
+      padding-left: 0;
+      li {
+        list-style-type: none;
+        a {
+          color: rgb(0, 195, 255);
+          svg {
+            font-size: 30px;
+            margin-right: 15px;
+            transition: 0.3s ease;
+            &:hover {
+              color: #179af1;
+            }
+          }
+        }
+        .facebook_icon {
+          transition: 0.014s ease;
+          svg {
+            color: rgb(0, 132, 255);
+
+            &:hover {
+              color: #175cf1;
+              transform: rotate(360deg);
+            }
+          }
+        }
+        .telegram_icon {
+          svg {
+            &:hover {
+              color: #00f7ff;
+              margin-top: -2px;
+              margin-left: 2px;
+              // transform: rotate(360deg);
+            }
+          }
+        }
+        .instagram_icon {
+          svg {
+            color: rgb(255, 0, 43);
+            &:hover {
+              font-size: 32px;
+              transform: rotate(-360deg);
+              color: #ff5860;
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn-close {
+    margin-top: -30px !important;
+    font-size: 20px;
+  }
+}
+.offcanvas-body {
+  p {
+    color: #0d6efd;
+    display: flex;
+    align-items: center;
+    svg {
+      color: #adadad;
+      margin-left: 10px;
+    }
+  }
+  .activeSub1 {
+    display: block !important;
+  }
+  .activeSub2 {
+    display: block !important;
+  }
+  .submenu1 {
+    display: none;
+    padding-left: 10px;
+  }
+  .submenu2 {
+    display: none;
+    padding-left: 10px;
+  }
+  .quick_links {
+    text-align: left;
+    padding-left: 0;
+    li {
+      list-style: none;
+      font-size: 19px;
+      margin: 10px 0;
+    }
+  }
+}
+.offcanvas-start {
+  width: 270px !important;
+}
+.offcanvas {
+  width: 270px;
+}
+.mob_footer {
+  position: absolute;
+  bottom: 20px;
+  left: 15%;
+  a {
+    font-size: 19px;
+  }
+}

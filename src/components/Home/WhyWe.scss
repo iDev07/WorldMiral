@@ -1,0 +1,60 @@
+.WhyWe {
+  overflow: hidden;
+  margin-top: 50px;
+  background: url("../../assets/Home/new_pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: contain;
+  .wrapper {
+    padding-bottom: 60px;
+    background-color: #00000056;
+    .intro {
+      @media all and (max-width: 992px) {
+        text-align: center;
+      }
+      display: flex;
+      justify-content: center;
+      padding: 80px 0;
+      padding-bottom: 0px;
+      h1 {
+        color: #fff;
+        font-weight: 800;
+      }
+    }
+    .container {
+      @media all and (max-width: 992px) {
+        display: block;
+        .mycol {
+          width: 95% !important;
+          margin: 25px auto;
+        }
+      }
+      padding: 40px 0;
+      display: flex;
+      justify-content: space-around;
+      .mycol {
+        &:hover {
+          transform: translateY(-15px);
+        }
+        width: 32%;
+        cursor: pointer;
+        transition: 0.35s ease;
+        padding: 25px;
+        box-shadow: 15px 15px 45px 0px rgba(205, 152, 39, 0.188);
+        background-color: #fff;
+        border-radius: 15px;
+        h3 {
+          color: #293350;
+          padding: 10px 0;
+          font-weight: 800;
+        }
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 1.55;
+        }
+      }
+    }
+  }
+}

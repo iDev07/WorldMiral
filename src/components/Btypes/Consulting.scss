@@ -1,0 +1,91 @@
+.Consulting {
+  .main_top {
+    background: url("../../assets/directions/consulting_back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 80vh;
+    .wrapper {
+      background: rgba(0, 0, 0, 0.71);
+      width: 100%;
+      height: 100%;
+      .content {
+        padding-top: 350px;
+        h1 {
+          color: #fff;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .main_content {
+    .intro {
+      padding: 80px 0;
+      h1 {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 800;
+      }
+    }
+    @media all and (max-width: 992px) {
+      .container {
+        text-align: center;
+        display: block !important;
+        img {
+          margin: 20px 0;
+          height: 250px !important;
+        }
+      }
+    }
+    .cert1 {
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .left {
+          img {
+            width: 100%;
+            border-radius: 50px;
+            height: 60%;
+            object-fit: contain;
+            -webkit-box-shadow: -2px -1px 27px 3px rgba(34, 60, 80, 0.22);
+            -moz-box-shadow: -2px -1px 27px 3px rgba(34, 60, 80, 0.22);
+            box-shadow: -2px -1px 27px 3px rgba(34, 60, 80, 0.22);
+          }
+        }
+        .right {
+          margin-left: 30px;
+        }
+      }
+    }
+    .cert2 {
+      @media all and (max-width: 992px) {
+        .left {
+          margin-right: 0 !important;
+        }
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .right {
+          img {
+            width: 100%;
+            border-radius: 50px;
+            height: 60%;
+            object-fit: contain;
+            -webkit-box-shadow: -2px -1px 27px 3px rgba(34, 60, 80, 0.22);
+            -moz-box-shadow: -2px -1px 27px 3px rgba(34, 60, 80, 0.22);
+            box-shadow: -2px -1px 27px 3px rgba(34, 60, 80, 0.22);
+          }
+        }
+        .left {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}

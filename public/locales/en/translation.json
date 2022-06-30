@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "main1": "Main",
+    "main2": "About group companies",
+    "main3": "Lines of business",
+    "main4": "News",
+    "main5": "Contacts"
+  },
+  "submenus": {
+    "about1": "About company",
+    "about2": "Team",
+    "about3": "Career",
+    "direct1": "Marketplace",
+    "direct2": "Production",
+    "direct3": "Reproduction",
+    "direct4": "Export",
+    "direct5": "Consalting",
+    "direct6": "Outside advertising"
+  }
+}

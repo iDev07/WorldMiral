@@ -1,0 +1,54 @@
+.HomeNews {
+  overflow: hidden;
+  .wrapper {
+    .intro {
+      display: flex;
+      justify-content: center;
+      margin: 70px 0;
+      padding-bottom: 0px;
+      h1 {
+        color: #293350;
+        font-weight: 800;
+      }
+    }
+    padding-bottom: 60px;
+    .container {
+      @media all and (max-width: 992px) {
+        display: block;
+        .mycol {
+          width: 95% !important;
+          margin: 20px auto;
+        }
+      }
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      .mycol {
+        overflow: hidden;
+        width: 32%;
+        &:hover {
+          //   border: 1px solid rgb(174, 174, 174);
+          img {
+            transform: scale(1.05);
+          }
+        }
+        a {
+          img {
+            transition: 0.3s ease;
+            width: 100%;
+            height: 300px;
+          }
+          h5 {
+            max-width: 100%;
+            margin: 10px 0;
+            color: #293350;
+            font-weight: 700;
+          }
+          p {
+            color: rgba(0, 0, 0, 0.56);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.MainSingle {
+  .top {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(123, 118, 118);
+    svg {
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+    }
+    h6 {
+      text-align: center;
+      font-weight: 700;
+      margin-left: -100px;
+      color: #333333;
+    }
+  }
+  //   padding: 120px 0;
+  .wrapper {
+    @media all and (max-width: 992px) {
+      .content {
+        max-width: 95% !important;
+        h2 {
+          margin-top: 80px;
+        }
+      }
+    }
+    .content {
+      max-width: 70%;
+      margin: 25px auto;
+      img {
+        width: 100%;
+      }
+      h2 {
+        font-weight: 800;
+      }
+      p {
+        padding: 15px 0;
+        font-size: 20px;
+        color: #333333;
+        line-height: 2;
+      }
+    }
+  }
+}

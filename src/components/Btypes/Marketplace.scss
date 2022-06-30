@@ -1,0 +1,117 @@
+.MarketplaceMain {
+  .main_top {
+    background: url("../../assets/directions/market_back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    background-size: cover;
+    .wrapper {
+      height: 80vh;
+      background: rgba(0, 0, 0, 0.701);
+      width: 100%;
+      .content {
+        padding-top: 350px;
+        h1 {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .main_content {
+    .small_about {
+      @media all and (max-width: 992px) {
+        padding: 20px 0 !important;
+      }
+      opacity: 0.7;
+      padding: 40px 0;
+    }
+    .direct_logo {
+      @media all and (max-width: 992px) {
+        margin: 0 auto !important;
+        width: 260px !important;
+        height: 170px !important;
+      }
+      margin: 50px auto;
+      width: 500px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3f6f8;
+      -webkit-box-shadow: 1px 4px 46px 8px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 1px 4px 46px 8px rgba(34, 60, 80, 0.2);
+      box-shadow: 1px 4px 46px 8px rgba(34, 60, 80, 0.2);
+      border-radius: 25px;
+      img {
+        width: 80%;
+      }
+    }
+    .m_facts {
+      margin: 60px 0;
+      background: url("../../assets/directions/m_facts.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 80vh;
+      .wrapper {
+        height: 80vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.704);
+        display: flex;
+        align-items: center;
+        .container {
+          @media all and (max-width: 992px) {
+            display: block;
+            .mycol {
+              margin: 30px auto;
+            }
+          }
+          padding: 50px;
+          display: grid;
+          align-items: center;
+          grid-template-columns: 30% 30% 30%;
+          .mycol {
+            margin: 0 25px;
+            text-align: center;
+            .count {
+              border-bottom: 1px solid rgb(198, 198, 198);
+              span {
+                color: #fff;
+                font-size: 50px;
+                margin-bottom: 20px;
+              }
+            }
+            p {
+              margin-top: 10px;
+              font-size: 20px;
+              font-weight: 400px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    .advants_project {
+      @media all and (max-width: 992px) {
+        display: block;
+      }
+      margin: 70px 0;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      ul {
+        padding-left: 0;
+        li {
+          list-style-type: none;
+          padding: 10px;
+          display: flex;
+          font-size: 20px;
+          svg {
+            margin-right: 10px;
+            font-size: 35px;
+            color: #cd9827;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "menu": {
+    "main1": "Asosiy",
+    "main2": "Kompaniyalar guruhi haqida",
+    "main3": "Biznes yo'nalishlari",
+    "main4": "Yangiliklar",
+    "main5": "Kontaktlar"
+  },
+  "submenus": {
+    "about1": "Biz haqimizda",
+    "about2": "Jamoa",
+    "about3": "Karyera",
+    "direct1": "Marketpleys",
+    "direct2": "Ishlab chiqarish",
+    "direct3": "Qayta ishlash",
+    "direct4": "Eksport",
+    "direct5": "Konsalting xizmati",
+    "direct6": "Tashqi reklama"
+  },
+  "homeMain": {
+    "mainText1": "Biz sizga xizmat ko'rsatishdan juda ham mamnunmiz !",
+    "mainText2": "Biznesingiz xalqaro darajaga chiqishini hoxlaysizmi ?",
+    "mainText3": "Online savdo - qulay va tejamkor",
+    "mainDes1": "Wolrd Miral kompaniyalar guruhi O'zbekistondagi yirik va ko'p yillik tajribaga ega bo'lgan kompaniyadir. Bizning kompaniyamiz tarkibida ishlab chiqarish, eksport, konsalting va import qilishga ixtisoslashgan korxona va firmalar mavjud.",
+    "mainDes2": "Bizning hamkorimiz bo'lgan TURKCERT kompaniyasi orqali siz xalqaro darajada tan olingan ISO 9001 , ISO 14001 , ISO 22000 , ISO 13485 , ISO/TS 16949, ISO 18000, ISO 18513, ISO 10002, ISO 17100, CE BELGELENDİRME, ISO 27001, TEST, GOST-R, HYB, TSEK sertifikatlarini olishingiz mumkin.",
+    "mainDes3": "ALL4U - marketpleys mahsulotingizni boshqa davlatlarga eksport qilish yoki sizga kerakli bo'lgan xomashyolarni import qilish uchun O'zbekistondagi yangi platformadir. Shuningdek bizning platformada chakana savdo ham mavjud."
+  }
+}

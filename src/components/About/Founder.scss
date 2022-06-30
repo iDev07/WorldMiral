@@ -1,0 +1,56 @@
+.Founder {
+  overflow: hidden;
+  .wrapper {
+    padding: 50px 0;
+    .top_about {
+      padding: 25px 0;
+      overflow: 0.7;
+    }
+    .directors_block {
+      .h1 {
+        color: #293350;
+        padding: 10px 0;
+      }
+      .boos1 {
+        @media all and (max-width: 992px) {
+          display: block;
+          .right {
+            padding: 20px !important;
+          }
+        }
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .left {
+          width: 95%;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .right {
+          padding: 60px;
+          background-color: rgb(231, 239, 245);
+          h1 {
+            margin-bottom: 5px;
+            color: #293350;
+          }
+          span {
+            font-style: 18px;
+            opacity: 0.7;
+            margin: 5px 0;
+          }
+          hr {
+            width: 50px;
+            height: 3px;
+            background-color: #cd9827;
+          }
+          p {
+            margin-top: 28px;
+            font-weight: 1.55;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

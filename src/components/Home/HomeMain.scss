@@ -1,0 +1,195 @@
+.HomeMain {
+  @media all and (max-width: 992px) {
+    .wrapper1,
+    .wrapper2,
+    .wrapper3,
+    .wrapper4 {
+      height: 110v;
+    }
+    .container {
+      display: block !important;
+      h1 {
+        padding-top: 50px;
+        font-size: 25px !important;
+      }
+      img {
+        padding: 20px 0;
+        width: 120px;
+      }
+      p {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .wrapper1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/Home/banner1.jpeg");
+    background-size: cover;
+    .content {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.601),
+        rgba(0, 0, 0, 0.503)
+      );
+      display: flex;
+      align-items: center;
+      .container {
+        @media all and (max-width: 992px) {
+          display: block;
+        }
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .left {
+          h1 {
+            font-weight: 700;
+            font-size: 56px;
+            color: #fff;
+            max-width: 90%;
+          }
+          p {
+            font-size: 18px;
+            max-width: 90%;
+            font-weight: 300;
+            color: #fff;
+          }
+        }
+        .right {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .wrapper2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/Home/banner2.jpg");
+    background-size: cover;
+    .content {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.601),
+        rgba(0, 0, 0, 0.503)
+      );
+      display: flex;
+      align-items: center;
+      .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .left {
+          h1 {
+            font-weight: 700;
+            font-size: 56px;
+            color: #fff;
+            max-width: 90%;
+          }
+          p {
+            font-size: 18px;
+            max-width: 90%;
+            font-weight: 300;
+            color: #fff;
+          }
+        }
+        .right {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .wrapper3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/Home/banner3.jpeg");
+    background-size: cover;
+    .content {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.601),
+        rgba(0, 0, 0, 0.503)
+      );
+      display: flex;
+      align-items: center;
+      .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .left {
+          h1 {
+            font-weight: 700;
+            font-size: 56px;
+            color: #fff;
+            max-width: 90%;
+          }
+          p {
+            font-size: 18px;
+            max-width: 90%;
+            font-weight: 300;
+            color: #fff;
+          }
+        }
+        .right {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 80%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+  .wrapper4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url("../../assets/Home/banner1.jpeg");
+    background-size: cover;
+    .content {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.601),
+        rgba(0, 0, 0, 0.503)
+      );
+      display: flex;
+      align-items: center;
+      .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .left {
+          h1 {
+            font-weight: 700;
+            font-size: 56px;
+            color: #fff;
+            max-width: 90%;
+          }
+          p {
+            font-size: 18px;
+            max-width: 90%;
+            font-weight: 300;
+            color: #fff;
+          }
+        }
+        .right {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.Advanteges {
+  background: url("../../assets/About/back.svg");
+  padding: 60px 0;
+  //   background-size: cover;
+  //   height: 100vh;
+  background-attachment: fixed;
+  .wrapper {
+    background-color: rgba(0, 0, 0, 0.016);
+    .intro {
+      padding: 30px 0;
+      display: flex;
+      justify-content: center;
+      margin: 40px 0;
+      h1 {
+        padding: 0 20px;
+        text-align: center;
+      }
+    }
+    .container {
+      @media all and (max-width: 992px) {
+        display: block;
+      }
+      display: grid;
+      grid-template-columns: 32% 32% 32%;
+      .mycol {
+        transition: 0.4s ease;
+        &:hover {
+          cursor: pointer;
+          transform: translateY(-15px);
+          img {
+            transform: rotate(360deg);
+          }
+        }
+        margin: 0 15px;
+        background-color: #fff;
+        box-shadow: 15px 15px 45px 0px rgba(205, 152, 39, 0.215);
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 80px;
+        .top {
+          background-color: #fff;
+          text-align: center;
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          padding: 12px;
+          border-radius: 50%;
+          margin-top: -80px;
+
+          img {
+            transition: 0.5s ease;
+            width: 80px;
+          }
+        }
+        .content {
+          h3 {
+            font-weight: 700;
+            color: #293350;
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}
