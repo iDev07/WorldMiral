@@ -13,7 +13,8 @@ function AboutMain() {
         <div className="container">
           <div className="content">
             <h1 data-aos="fade-left">
-              Biz barcha sohada biznes yuritamiz va loyihalarni ishga tushiramiz
+              World Miral kompaniyalar guruhi O'zbekistondagi ko'plab biznes
+              sohalarida o'z faoliyatini olib boradi
             </h1>
           </div>
         </div>

@@ -93,12 +93,12 @@ function Navbar() {
                 </p>
                 <ul className={`submenu1 ${subMenu1}`}>
                   <li>
-                    <Link to="/about-us">{t("submenus.about1")}</Link>
+                    <a href="/about-us">{t("submenus.about1")}</a>
                   </li>
                   <li>
-                    <Link to="/team">{t("submenus.about2")}</Link>
+                    <a href="/team">{t("submenus.about2")}</a>
                   </li>
-                  <Link to="/career">{t("submenus.about3")}</Link>
+                  <a href="/career">{t("submenus.about3")}</a>
                   <li></li>
                 </ul>
               </li>
@@ -114,16 +114,16 @@ function Navbar() {
                 </p>
                 <ul className={`submenu2 ${subMenu2}`}>
                   <li>
-                    <Link to="/marketplace">{t("submenus.direct1")}</Link>
+                    <a href="/marketplace">{t("submenus.direct1")}</a>
                   </li>
                   <li>
-                    <Link to="/produce">{t("submenus.direct2")}</Link>
+                    <a href="/produce">{t("submenus.direct2")}</a>
                   </li>
                   <li>
-                    <Link to="/reproduce">{t("submenus.direct3")}</Link>
+                    <a href="/reproduce">{t("submenus.direct3")}</a>
                   </li>
                   <li>
-                    <Link to="/export">{t("submenus.direct4")}</Link>
+                    <a href="/export">{t("submenus.direct4")}</a>
                   </li>
                   <li>
                     <a href="/consalting">{t("submenus.direct5")}</a>

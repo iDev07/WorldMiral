@@ -61,25 +61,6 @@ function HomeNews() {
               </div>
             </Link>
           </div>
-          <div className="mycol" data-aos="zoom-in">
-            <Link to="/news">
-              <div className="img_block">
-                <img src={img1} alt="img1" />
-              </div>
-              <div className="content">
-                <h5>
-                  Korxonalarimizdan birining hududida FVV va Mehnat vazirliklari
-                  ishtirokida mehnatni muhofaza qilish tadbiri bo‘lib o‘tdi.
-                </h5>
-                <p>
-                  Mutaxassislarga ko'rgazmali amaliy bilimlar namoyish etildi.
-                  Ma'ruza qismini tinglab, xavfsizlik choralari va favqulodda
-                  vaziyatlarda yordam ko'rsatish bo'yicha ishlar olib borildi.
-                </p>
-                <span className="data">09.06.2022</span>
-              </div>
-            </Link>
-          </div>
         </div>
       </div>
     </div>
